@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Menu } from "lucide-react";
+import { Menu, Download } from "lucide-react";
 import { useScrollContext } from "./smooth-scroll-provider";
 import { MobileMenu } from "./mobile-menu";
 
@@ -80,9 +80,28 @@ export function Navbar() {
                 </a>
               ))}
             </nav>
+
+            <a
+              href="https://github.com/junque1r4/portfolio/blob/master/files/CV_original.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 nav-text text-foreground-secondary hover:text-foreground transition-colors duration-500 group"
+            >
+              <Download className="h-4 w-4 group-hover:translate-y-0.5 transition-transform duration-300" />
+              <span>CV</span>
+            </a>
           </div>
 
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center space-x-3">
+            <a
+              href="https://github.com/junque1r4/portfolio/blob/master/files/CV_original.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-10 h-10 rounded-full bg-foreground/5 hover:bg-foreground/10 transition-all duration-300 text-foreground"
+              aria-label="Download CV"
+            >
+              <Download className="h-4 w-4" />
+            </a>
             <button
               onClick={() => setIsOpen(true)}
               className="flex items-center justify-center w-10 h-10 rounded-full bg-foreground/5 hover:bg-foreground/10 transition-all duration-300 text-foreground"

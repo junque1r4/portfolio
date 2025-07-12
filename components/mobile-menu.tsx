@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { X } from "lucide-react";
+import { X, Download } from "lucide-react";
 import { useScrollContext } from "./smooth-scroll-provider";
 import { createPortal } from "react-dom";
 import { useEffect, useState } from "react";
@@ -111,7 +111,17 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               </nav>
             </div>
 
-            <div className="border-t border-foreground/10 p-6">
+            <div className="border-t border-foreground/10 p-6 space-y-4">
+              <a
+                href="https://github.com/junque1r4/portfolio/blob/master/files/CV_original.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-3 contact-text text-foreground hover:text-foreground transition-colors duration-300 group"
+                onClick={onClose}
+              >
+                <Download className="h-5 w-5 group-hover:translate-y-0.5 transition-transform duration-300" />
+                <span>Download CV</span>
+              </a>
               <p className="meta-text text-foreground-secondary">
                 &copy; {new Date().getFullYear()} JOÃO JUNQUEIRA
               </p>
