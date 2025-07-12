@@ -33,6 +33,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   const navItems = [
     { name: "Projects", href: "#work", id: "work" },
     { name: "Work", href: "#experience", id: "experience" },
+    { name: "Certificates", href: "#certificates", id: "certificates" },
     { name: "About", href: "#about", id: "about" },
     { name: "Across the Web", href: "#across-the-web", id: "across-the-web" },
   ];

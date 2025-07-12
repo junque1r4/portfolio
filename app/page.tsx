@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { HeroSection } from "@/components/hero-section";
 import { WorkSection } from "@/components/work-section";
 import { ExperienceSection } from "@/components/experience-section";
+import { CertificatesSection } from "@/components/certificates-section";
 import { AboutSection } from "@/components/about-section";
 import { ContactSection } from "@/components/contact-section";
 import { Navbar } from "@/components/navbar";
@@ -41,6 +42,12 @@ export default function Home() {
         <section id="experience">
           <SectionTransition id="experience">
             <ExperienceSection />
+          </SectionTransition>
+        </section>
+
+        <section id="certificates">
+          <SectionTransition id="certificates">
+            <CertificatesSection />
           </SectionTransition>
         </section>
 
