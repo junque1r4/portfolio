@@ -5,15 +5,24 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     id: 0,
+    title: "DevSecOps Engineer - Emotion Mobility",
+    company: "Emotion Mobility",
+    year: "2025 - Present",
+    description:
+      "My mission as a DevSecOps specialist is to embed a robust security posture into every stage of the e-mobility development lifecycle. This involves not only architecting secure multi-cloud pipelines (AWS, GCP, Azure) with GitHub Actions, but also proactively shaping our defenses through hands-on threat modeling, rigorous code reviews, vulnerability validation, and empowering developers through targeted security training.",
+    link: "https://www.emotionmobility.com/",
+  },
+  {
+    id: 1,
     title: "Cybersecurity Engineer - MBWay",
     company: "MBWay",
-    year: "2024 - Present",
+    year: "2024 - 2025",
     description:
       "Executed the end-to-end vulnerability management lifecycle for a critical financial platform's core infrastructure. Identified, assessed, and drove the remediation of security risks across an on-premise environment of over 2000 servers to enhance overall system resilience and ensure compliance.",
     link: "https://www.mbway.pt/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Cybersecurity Engineer - Alelo",
     company: "Alelo",
     year: "2022 - 2024",
@@ -22,7 +31,7 @@ const experiences = [
     link: "https://www.alelo.com.br/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Cybersecurity Engineer - Vivo",
     company: "Vivo",
     year: "2019 - 2022",
