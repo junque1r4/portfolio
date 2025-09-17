@@ -7,7 +7,7 @@ const projects = [
     id: 0,
     title: "Workspace MCP",
     category: "Rust / Developer Tools",
-    year: "2024",
+    year: "2025",
     description:
       "A Model Context Protocol (MCP) server built in Rust that provides workspace analysis capabilities, allowing AI assistants to understand project structure and codebase context efficiently.",
     link: "https://github.com/junque1r4/workspace-context-mcp",
@@ -16,7 +16,7 @@ const projects = [
     id: 1,
     title: "Solana Money Laundry Scanner",
     category: "Rust / Blockchain Security",
-    year: "2024",
+    year: "2025",
     description:
       "A Rust-based tool for analyzing Solana blockchain transactions to detect potential money laundering patterns and suspicious activities in the decentralized finance ecosystem.",
     link: "https://github.com/junque1r4/thehackerdex",
@@ -29,6 +29,15 @@ const projects = [
     description:
       "A Python-based compliance auditing tool that automates security assessments and regulatory compliance checks, streamlining the audit process for organizations.",
     link: "https://github.com/junque1r4/Audit-Checker",
+  },
+  {
+    id: 3,
+    title: "macToSearch",
+    category: "Swift / Developer Tools",
+    year: "2025",
+    description:
+      "Open-Source AI-Powered Visual Search for macOS - A native application that transforms anything on your screen into an intelligent search, similar to Google's Circle to Search.",
+    link: "https://github.com/junque1r4/macToSearch",
   },
 ];
 export function WorkSection() {
