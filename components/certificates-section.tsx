@@ -16,10 +16,10 @@ const certificates = [
     id: 1,
     title: "Certified Blockchain Security Professional™",
     issuer: "Blockchain Council",
-    year: "Ongoing",
+    year: "2025",
     description:
       "Advanced certification program focusing on blockchain security fundamentals, smart contract security, cryptographic protocols, and security best practices for decentralized applications.",
-    link: "https://www.blockchain-council.org/certifications/certified-blockchain-security-professional/",
+    link: "https://certificates.blockchain-council.org/1ba8a589-c335-4f3c-85c2-58c8c9511866#acc.R7m8tYBX",
   },
 ];
 

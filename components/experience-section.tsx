@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     id: 0,
-    title: "DevSecOps Engineer - Emotion Mobility",
-    company: "Emotion Mobility",
+    title: "Cybersecurity Engineer & Developer- Freelancer",
+    company: "Self Employed",
     year: "2025 - Present",
     description:
-      "My mission as a DevSecOps specialist is to embed a robust security posture into every stage of the e-mobility development lifecycle. This involves not only architecting secure multi-cloud pipelines (AWS, GCP, Azure) with GitHub Actions, but also proactively shaping our defenses through hands-on threat modeling, rigorous code reviews, vulnerability validation, and empowering developers through targeted security training.",
-    link: "https://www.emotionmobility.com/",
+      "Empowering developers through targeted security training. Implementing secure coding practices and conducting code reviews to ensure the development of secure applications. Implementing secure coding practices and conducting code reviews to ensure the development of secure applications. Developing secure APIs and microservices in Rust. Web3 development and smart contract security for Solana.",
+    link: "https://junqueira.work",
   },
   {
     id: 1,

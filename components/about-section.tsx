@@ -72,17 +72,17 @@ export function AboutSection() {
 
             <div>
               <p className="body-text text-foreground-secondary">
-                Currently at{" "}
+                Currently building my own products, for example:{" "}
                 <a
-                  href="https://www.mbway.pt"
+                  href="https://bulir.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-400 hover:text-green-300 font-medium transition-colors duration-300"
                 >
-                  MBWay
+                  Bulir
                 </a>
-                , securing a PCI-DSS compliant infrastructure of over 2000
-                servers.
+                . Creating secure platforms in Rust. Building robust Web3
+                applications and services.
               </p>
             </div>
           </motion.div>

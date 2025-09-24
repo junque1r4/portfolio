@@ -4,7 +4,16 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    id: 0,
+    id: 1,
+    title: "macToSearch",
+    category: "Swift / Developer Tools",
+    year: "2025",
+    description:
+      "Open-Source AI-Powered Visual Search for macOS - A native application that transforms anything on your screen into an intelligent search, similar to Google's Circle to Search.",
+    link: "https://github.com/junque1r4/macToSearch",
+  },
+  {
+    id: 2,
     title: "Workspace MCP",
     category: "Rust / Developer Tools",
     year: "2025",
@@ -13,8 +22,8 @@ const projects = [
     link: "https://github.com/junque1r4/workspace-context-mcp",
   },
   {
-    id: 1,
-    title: "Solana Money Laundry Scanner",
+    id: 3,
+    title: "Solana Money Laundry Analyzer",
     category: "Rust / Blockchain Security",
     year: "2025",
     description:
@@ -22,22 +31,13 @@ const projects = [
     link: "https://github.com/junque1r4/thehackerdex",
   },
   {
-    id: 2,
+    id: 4,
     title: "Compliance Audit tool",
     category: "Python / Security Automation",
     year: "2024",
     description:
       "A Python-based compliance auditing tool that automates security assessments and regulatory compliance checks, streamlining the audit process for organizations.",
     link: "https://github.com/junque1r4/Audit-Checker",
-  },
-  {
-    id: 3,
-    title: "macToSearch",
-    category: "Swift / Developer Tools",
-    year: "2025",
-    description:
-      "Open-Source AI-Powered Visual Search for macOS - A native application that transforms anything on your screen into an intelligent search, similar to Google's Circle to Search.",
-    link: "https://github.com/junque1r4/macToSearch",
   },
 ];
 export function WorkSection() {
