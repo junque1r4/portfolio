@@ -115,7 +115,7 @@ export function ExperienceSection() {
                 </div>
 
                 {/* Experience description that appears on hover */}
-                <div className="max-h-0 overflow-hidden group-hover:max-h-32 transition-all duration-500 ease-out">
+                <div className="max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-500 ease-out">
                   <p className="project-description text-foreground-secondary max-w-2xl pt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 ease-out">
                     {experience.description}
                   </p>
