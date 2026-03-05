@@ -8,14 +8,14 @@ import { Suspense } from "react";
 const timestamp = new Date().getTime();
 
 export const metadata: Metadata = {
-  title: "JOÃO JUNQUEIRA | Cybersecurity Engineer & Developer",
+  title: "JOÃO JUNQUEIRA | AI Integration Engineer & Security Architect",
   description:
-    "Portfolio of JOÃO JUNQUEIRA, a cybersecurity engineer and developer creating secure digital experiences.",
+    "Portfolio of JOÃO JUNQUEIRA, an AI Integration Engineer & Security Architect.",
   metadataBase: new URL("https://junqueira.work"),
   openGraph: {
-    title: "JOÃO JUNQUEIRA | Cybersecurity Engineer & Developer",
+    title: "JOÃO JUNQUEIRA | AI Integration Engineer & Security Architect",
     description:
-      "Portfolio of JOÃO JUNQUEIRA, a cybersecurity engineer and developer creating secure digital experiences.",
+      "Portfolio of JOÃO JUNQUEIRA, an AI Integration Engineer & Security Architect.",
     url: "https://junqueira.work",
     siteName: "JOÃO JUNQUEIRA",
     images: [
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "JOÃO JUNQUEIRA | Cybersecurity Engineer & Developer",
+    title: "JOÃO JUNQUEIRA | AI Integration Engineer & Security Architect",
     description:
-      "Portfolio of JOÃO JUNQUEIRA, a cybersecurity engineer and developer creating secure digital experiences.",
+      "Portfolio of JOÃO JUNQUEIRA, an AI Integration Engineer & Security Architect.",
     images: [`/images/og-image.png?v=${timestamp}`],
     creator: "@thecharlover",
   },
@@ -76,11 +76,11 @@ export default function RootLayout({
         <meta property="og:url" content="https://junqueira.work" />
         <meta
           property="og:title"
-          content="JOÃO JUNQUEIRA | Cybersecurity Engineer & Developer"
+          content="JOÃO JUNQUEIRA | AI Integration Engineer & Security Architect"
         />
         <meta
           property="og:description"
-          content="Portfolio of JOÃO JUNQUEIRA, a cybersecurity engineer and developer creating secure digital experiences."
+          content="Portfolio of JOÃO JUNQUEIRA, an AI Integration Engineer & Security Architect."
         />
         <meta property="og:site_name" content="JOÃO JUNQUEIRA" />
 

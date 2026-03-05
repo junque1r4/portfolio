@@ -46,8 +46,7 @@ export function HeroSection() {
 
           <motion.div variants={itemVariants} className="max-w-2xl">
             <p className="hero-subtitle text-foreground-secondary">
-              Cybersecurity Engineer and Developer creating secure digital
-              experiences.
+              AI Integration Engineer & Security Architect
             </p>
           </motion.div>
         </motion.div>

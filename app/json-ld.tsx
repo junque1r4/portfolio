@@ -7,9 +7,9 @@ export function JsonLd() {
     name: "JOÃO JUNQUEIRA",
     url: "https://x.com/thecharlover",
     image: "https://x.com/thecharlover/photo",
-    jobTitle: "Cybersecurity Engineer & Developer",
+    jobTitle: "AI Integration Engineer & Security Architect",
     description:
-      "Portfolio of JOÃO JUNQUEIRA, a designer and developer creating digital experiences.",
+      "Portfolio of JOÃO JUNQUEIRA, an AI Integration Engineer & Security Architect.",
     sameAs: [
       "https://www.linkedin.com/in/joao-victor-junqueira-1b9114164/",
       "https://github.com/junque1r4",

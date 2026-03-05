@@ -65,24 +65,34 @@ export function AboutSection() {
           >
             <div>
               <p className="body-text text-foreground-secondary">
-                Cybersecurity analyst and developer safeguarding digital assets
-                and infrastructure across the Web2 and Web3 ecosystems.
+                Security Engineer and AI product builder with 5+ years embedding
+                robust security controls into cloud infrastructure, applications,
+                and DevOps pipelines.
               </p>
             </div>
 
             <div>
               <p className="body-text text-foreground-secondary">
-                Currently building my own products, for example:{" "}
+                Currently building{" "}
                 <a
-                  href="https://bulir.com/"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-400 hover:text-green-300 font-medium transition-colors duration-300"
                 >
-                  Bulir
+                  MathCanvas
                 </a>
-                . Creating secure platforms in Rust. Building robust Web3
-                applications and services.
+                {" "}and{" "}
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-400 hover:text-green-300 font-medium transition-colors duration-300"
+                >
+                  Tabula
+                </a>
+                {" "}at Intelligentsia Lab. AI integration consulting for
+                startups and enterprises.
               </p>
             </div>
           </motion.div>

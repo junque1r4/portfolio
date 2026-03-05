@@ -5,6 +5,24 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
+    title: "MathCanvas",
+    category: "Swift / iOS / AI",
+    year: "2025",
+    description:
+      "AI-powered iPad learning app with Apple Pencil integration. Transforms handwritten math into interactive problem-solving experiences.",
+    link: "#",
+  },
+  {
+    id: 2,
+    title: "Tabula",
+    category: "SaaS / Security",
+    year: "2025",
+    description:
+      "SaaS vulnerability management platform with AI-assisted prioritisation. Streamlines security workflows for engineering teams.",
+    link: "#",
+  },
+  {
+    id: 3,
     title: "macToSearch",
     category: "Swift / Developer Tools",
     year: "2025",
@@ -13,7 +31,7 @@ const projects = [
     link: "https://github.com/junque1r4/macToSearch",
   },
   {
-    id: 2,
+    id: 4,
     title: "Workspace MCP",
     category: "Rust / Developer Tools",
     year: "2025",
@@ -22,8 +40,8 @@ const projects = [
     link: "https://github.com/junque1r4/workspace-context-mcp",
   },
   {
-    id: 3,
-    title: "Solana Money Laundry Analyzer",
+    id: 5,
+    title: "Solana Security Research",
     category: "Rust / Blockchain Security",
     year: "2025",
     description:
@@ -31,8 +49,8 @@ const projects = [
     link: "https://github.com/junque1r4/thehackerdex",
   },
   {
-    id: 4,
-    title: "Compliance Audit tool",
+    id: 6,
+    title: "Compliance Audit Tool",
     category: "Python / Security Automation",
     year: "2024",
     description:

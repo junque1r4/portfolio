@@ -14,6 +14,15 @@ const certificates = [
   },
   {
     id: 1,
+    title: "Google Cloud Cybersecurity Certificate",
+    issuer: "Google Cloud",
+    year: "2024",
+    description:
+      "Professional certificate covering cloud security fundamentals, threat detection, incident response, and security operations on Google Cloud Platform.",
+    link: "#",
+  },
+  {
+    id: 2,
     title: "Certified Blockchain Security Professional™",
     issuer: "Blockchain Council",
     year: "2025",

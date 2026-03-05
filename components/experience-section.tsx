@@ -5,38 +5,38 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     id: 0,
-    title: "Cybersecurity Engineer & Developer- Freelancer",
-    company: "Self Employed",
-    year: "2025 - Present",
+    title: "Founder & AI Integration Consultant - Intelligentsia Lab",
+    company: "Intelligentsia Lab",
+    year: "March 2025 - Present",
     description:
-      "Empowering developers through targeted security training. Implementing secure coding practices and conducting code reviews to ensure the development of secure applications. Implementing secure coding practices and conducting code reviews to ensure the development of secure applications. Developing secure APIs and microservices in Rust. Web3 development and smart contract security for Solana.",
+      "Security-first AI consultancy. Building MathCanvas and Tabula. AI integration consulting for startups and enterprises. SIEM/SOAR architecture, DevSecOps pipelines, and Rust backend engineering.",
     link: "https://junqueira.work",
   },
   {
     id: 1,
-    title: "Cybersecurity Engineer - MBWay",
-    company: "MBWay",
+    title: "Cybersecurity Engineer - KWAN / SIBS (MBWay)",
+    company: "KWAN -- assigned to SIBS (MBWay)",
     year: "2024 - 2025",
     description:
-      "Executed the end-to-end vulnerability management lifecycle for a critical financial platform's core infrastructure. Identified, assessed, and drove the remediation of security risks across an on-premise environment of over 2000 servers to enhance overall system resilience and ensure compliance.",
+      "Threat modeling and security architecture for critical financial platform. GDPR & PCI-DSS compliance. Designed security controls for Azure cloud infrastructure. Detection & incident response. CI/CD pipeline security hardening.",
     link: "https://www.mbway.pt/",
   },
   {
     id: 2,
-    title: "Cybersecurity Engineer - Alelo",
-    company: "Alelo",
+    title: "Application Security Analyst - act digital / Alelo Brasil",
+    company: "act digital -- assigned to Alelo Brasil",
     year: "2022 - 2024",
     description:
-      "Managed the vulnerability management program, implemented and validated PCI-DSS security controls, coached engineering teams on secure coding.",
+      "Vulnerability management program ownership. LGPD compliance and PCI-DSS security controls. Security awareness training for engineering teams. Identity and access management.",
     link: "https://www.alelo.com.br/",
   },
   {
     id: 3,
-    title: "Cybersecurity Engineer - Vivo",
-    company: "Vivo",
+    title: "Software Security Analyst - Compass.uol",
+    company: "Compass.uol -- Vivo, Frete.com, Assai, BoaCompra",
     year: "2019 - 2022",
     description:
-      "Performed in-depth code reviews, analyzed third-party penetration testing reports, and automated security tasks using Python for major enterprise clients.",
+      "PCI-DSS compliance and vulnerability management across multiple enterprise clients. LGPD privacy reviews. Code review and secure development guidance. Third-party risk assessment. Security automation with Python.",
     link: "https://vivo.com.br/",
   },
 ];
